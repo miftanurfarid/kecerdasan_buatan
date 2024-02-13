@@ -1,0 +1,9 @@
+*.synctex.gz
+*.snm
+*.~lock*
+*.aux
+*.log
+*.nav
+*.out
+*.toc
+*.pkl
