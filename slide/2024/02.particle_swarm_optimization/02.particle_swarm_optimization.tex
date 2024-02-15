@@ -77,7 +77,7 @@
 
 \begin{frame}{Introduction to the PSO: Origins}
 	\begin{itemize}
-		\item In 1986, Craig Reynolds described this process in 3 simple beahviors:
+		\item In 1986, Craig Reynolds described this process in 3 simple behaviors:
 	\end{itemize}
 	\begin{multicols}{3}
 		\includegraphics[width=\linewidth]{img/04}
@@ -99,7 +99,7 @@
 \end{frame}
 
 \begin{frame}{Origins and Inspiration from Natural Systems}
-	Developed by \textbf{Jim Kennedy}, Bureau of Labor Statistics, U.S. Department of Labor and \textbf{Russ Ebenhart}, Purdue University at 1995.
+	Developed by \textbf{Jim Kennedy}, Bureau of Labor Statistics, U.S. Department of Labor and \textbf{Russ Ebenhart}, Computer Science, Purdue University at 1995.
 \end{frame}
 
 \begin{frame}
@@ -142,8 +142,8 @@
 		\item Swarm: a set of particles ($S$)
 		\item Particle: a potential solution
 		\begin{itemize}
-			\item Position: $X_i = (x_{i1},x_{i1},\dots,x_{in}) \in \mathbb{R}^n$
-			\item Velocity: $V_i = (v_{i1},v_{i1},\dots,v_{in}) \in \mathbb{R}^n$
+			\item Position: $X_i = (x_{i1},x_{i2},\dots,x_{in}) \in \mathbb{R}^n$
+			\item Velocity: $V_i = (v_{i1},v_{i2},\dots,v_{in}) \in \mathbb{R}^n$
 		\end{itemize}
 		\item Each particle maintains individual best position:
 		\item[] $P_i = (p_{i1}, p_{i2}, \dots, p_{in}) \in \mathbb{R}^n$
@@ -289,6 +289,14 @@
 	\begin{figure}
 		\centering
 		\includegraphics[width=\linewidth]{img/15}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Example}
+	\scriptsize$$f(x) = 3x_1^2 - 2x_1x_2 + 3x_2^2 - x_1 - x_2$$
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\linewidth]{img/15a}
 	\end{figure}
 \end{frame}
 
