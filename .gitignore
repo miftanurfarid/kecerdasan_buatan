@@ -7,3 +7,4 @@
 *.out
 *.toc
 *.pkl
+*-checkpoint.ipynb
